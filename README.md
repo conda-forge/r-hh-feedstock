@@ -3,7 +3,7 @@ About r-hh
 
 Home: https://CRAN.R-project.org/package=HH
 
-Package license: GPL (>= 2)
+Package license: GPL-2
 
 Feedstock license: BSD 3-Clause
 
