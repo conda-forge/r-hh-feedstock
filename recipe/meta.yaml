@@ -1,4 +1,4 @@
-{% set version = '3.1-37' %}
+{% set version = "3.1-39" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/HH_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/HH/HH_{{ version }}.tar.gz
-  sha256: d5bef227a61f120dca24374d4dee3d29d7e2b412c032056ba18222c8961c6095
+  sha256: 2060a0762bd93b5c67bf8a304da756ea426c4fd62c328154975fe87935ce1762
 
 build:
   merge_build_host: True  # [win]
