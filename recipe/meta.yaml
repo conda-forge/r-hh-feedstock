@@ -1,6 +1,5 @@
 {% set version = "3.1-52" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-hh
@@ -13,8 +12,7 @@ source:
   sha256: d5495e18df65de613d9bdc43729ca2ac27746b15b90c06502b2ee5e2458d0383
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
